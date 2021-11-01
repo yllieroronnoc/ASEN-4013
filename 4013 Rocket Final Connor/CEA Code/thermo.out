@@ -1,0 +1,425 @@
+
+ *******************************************************************************
+
+         NASA-LEWIS CHEMICAL EQUILIBRIUM PROGRAM CEA,  SEP. 4, 1997
+                   BY  BONNIE MCBRIDE AND SANFORD GORDON
+      REFS: NASA RP-1311, PART I, 1994 AND NASA RP-1311, PART II, 1996
+
+ *******************************************************************************
+
+
+
+ thermo
+ e-               l 6/88   0.000000E+00     CP/R = 2.5                                                    
+ AL               l 5/97   0.330000E+06     Cons:JPCRD v20 n5 p775 1991. Hf:CODATA,1989,p24. T-fit        
+ AL+              l 3/97   0.913015E+06     JPCRD v20 n5 1991 p775.                                       
+ AL-              l 3/97   0.281090E+06     Levels:JANAF 6/83. EA:JPCRD v14 n3 1985 p742,746.             
+ ALBO2            J 6/66  -0.541416E+06                                                                   
+ ALBr             tpis96   0.143251E+05     Hf0,TabData: Gurvich TPIS 1996 pt1 p184 & pt2 p148.           
+ ALBr2            tpis96  -0.140662E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p186-7,p143.              
+ ALBr3            tpis96  -0.410477E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p188-90,p145.             
+ ALC              tpis96   0.682280E+06     Hf0,TabData:Gurvich TPIS 1996 pt1 pp205-6 & pt2 p165.         
+ ALC2             tpis96   0.675616E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p206,p127.                
+ ALCL             tpis96  -0.510074E+05     Hform,TabData:Gurvich TPIS 1996 pt1 p168 & pt2 p131.          
+ ALCL+            J 6/76   0.861926E+06                                                                   
+ ALCL2            tpis96  -0.240874E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p171-2,p143.              
+ ALCL3            tpis96  -0.584679E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p173-5,p145.              
+ ALCL2+           J 6/76   0.481173E+06                                                                   
+ ALCL2-           J 6/76  -0.481171E+06                                                                   
+ ALCL2F           J 6/76  -0.790795E+06                                                                   
+ ALF              tpis96  -0.264060E+06     Hform,TabData:Gurvich TPIS 1996 pt1 p151 & pt2 p116.          
+ ALF+             J 6/76   0.692051E+06                                                                   
+ ALFCL            tpis96  -0.436410E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p182,p143.                
+ ALFCL+           J 6/76   0.276151E+06                                                                   
+ ALFCL2           tpis96  -0.791395E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p183-84,p145.             
+ ALF2             tpis96  -0.631764E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p153-4,p143.              
+ ALF2+            J 6/76   0.920503E+05                                                                   
+ ALF2-            tpis96  -0.853231E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p154-6,p143.              
+ ALF2CL           tpis96  -0.999128E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p182-3,p145.              
+ ALF3             tpis96  -0.120928E+07     Hform & cons: Gurvich,TPIS,1996,pt1,p157-9,p145.              
+ ALF4-            J 6/76  -0.199163E+07                                                                   
+ ALH              tpis96   0.249250E+06     Hform,TabData:Gurvich,TPIS,1996,pt1,p139 & pt2,p106.          
+ ALHCL            tpis96   0.105220E+05     Hform & cons: Gurvich,TPIS,1996,pt1,p178-9,p143.              
+ ALHCL2           tpis96  -0.351279E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p179-80,p145.             
+ ALHF             tpis96  -0.182614E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p164-5,p143.              
+ ALHFCL           tpis96  -0.555245E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p184,p145.                
+ ALHF2            tpis96  -0.765299E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p166,p145.                
+ ALH2             tpis96   0.276774E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p142-44.                  
+ ALH2CL           tpis96  -0.106345E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p179,p145.                
+ ALH2F            tpis96  -0.316656E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p165-6,p145.              
+ ALH3             tpis96   0.128895E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p145-6.                   
+ ALI              tpis96   0.673951E+05     Hf0,TabData:Gurvich TPIS 1996 pt1 p191-3, pt2 p153.           
+ ALI2             tpis96  -0.338130E+05     Hform & cons: Gurvich,TPIS,1996,pt1,p193,p143.                
+ ALI3             tpis96  -0.191330E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p195-6,p145.              
+ ALN              tpis96   0.438829E+06     Hf0,TabData:Gurvich TPIS 1996 pt1 p204-5 & pt2 p164.          
+ ALO              tpis96   0.673239E+05     Hform,TabData(extrap):TPIS,1996,pt1,p122-5 & pt2,p96.         
+ ALO+             J12/79   0.993005E+06                                                                   
+ ALO-             l 2/97  -0.272917E+06     Estim.Data:Gurvich,TPIS,1996,pt1,p125-6,p119.                 
+ ALOCL            tpis96  -0.301565E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p176-8,p127.              
+ ALOCL2           tpis96  -0.402309E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p178,p132.                
+ ALOF             tpis96  -0.572290E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p163,p127.                
+ ALOF2            tpis96  -0.773650E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p164,p132.                
+ ALOF2-           J 6/76  -0.130963E+07                                                                   
+ ALOH             tpis96  -0.192762E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p145-6,p127.              
+ ALOH+            J12/67   0.543933E+06                                                                   
+ ALOH-            J12/67  -0.230126E+06                                                                   
+ ALOHCL           tpis96  -0.373786E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p180,p132.                
+ ALOHCL2          tpis96  -0.725145E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p181-2,p138.              
+ ALOHF            tpis96  -0.574212E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p166-7p132.               
+ ALOHF2           tpis96  -0.114151E+07     Hform & cons: Gurvich,TPIS,1996,pt1,p168,p138.                
+ ALO2             tpis96  -0.386475E+05     Hform & cons: Gurvich,TPIS,1996,pt1,p126-8.                   
+ ALO2-            tpis96  -0.452562E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p127-9.                   
+ ALO2H            J12/68  -0.460247E+06                                                                   
+ AL(OH)2          tpis96  -0.507661E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p149,p138.                
+ AL(OH)2CL        tpis96  -0.859057E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p181,p138.                
+ AL(OH)2F         tpis96  -0.106963E+07     Hform & cons: Gurvich,TPIS,1996,pt1,p167-8,p138.              
+ AL(OH)3          tpis96  -0.101267E+07     Hform & cons: Gurvich,TPIS,1996,pt1,p150-1,p138.              
+ ALS              tpis96   0.232692E+06     Hf0,TabData:Gurvich TPIS 1996 pt1 p197-8 & pt2 p158.          
+ ALS2             tpis96   0.248556E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p198-9,p127.              
+ AL2              tpis96   0.501301E+06     D0,TabData:Gurvich,TPIS,1996,pt1,p118&pt2,p95,                
+ AL2Br6           tpis96  -0.942423E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p190-1,p161.              
+ AL2C2            tpis96   0.544978E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p206-7,p132.              
+ AL2CL6           tpis96  -0.129688E+07     Hform & cons: Gurvich,TPIS,1996,pt1,p175-6,p161.              
+ AL2F6            tpis96  -0.263249E+07     Hform & cons: Gurvich,TPIS,1996,pt1,p160-2.                   
+ AL2I6            tpis96  -0.487747E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p196-7,p161.              
+ AL2O             tpis96  -0.148607E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p126-31.                  
+ AL2O+            J12/79   0.652444E+06                                                                   
+ AL2O2            tpis96  -0.403085E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p131-33.                  
+ AL2O2+           J12/79   0.567422E+06                                                                   
+ AL2O3            tpis96  -0.546875E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p137-9.                   
+ AL2S             tpis96   0.220689E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p199-200,p127.            
+ AL2S2            tpis96   0.135308E+06     Hform & cons: Gurvich,TPIS,1996,pt1,p200-1,p132.              
+ Ar               l 5/97   0.000000E+00     Moore: NSRDS-NBS 35 1971; NSRDS-NBS 34 1970. Tx-fit           
+ Ar+              l 3/97   0.152678E+07     Moore: NSRDS-NBS 35 1971; NSRDS-NBS 34 1970.                  
+ B                J 6/83   0.560000E+06                                                                   
+ B+               J 6/83   0.136672E+07                                                                   
+ B-               J 6/83   0.527033E+06                                                                   
+ BCL              J12/64   0.141417E+06                                                                   
+ BCL+             J 6/68   0.123431E+07                                                                   
+ BCLF             J12/64  -0.313792E+06                                                                   
+ BCL2             J 6/72  -0.794931E+05                                                                   
+ BCL2+            J12/70   0.674064E+06                                                                   
+ BCL2-            J 6/72  -0.146439E+06                                                                   
+ BCL3             J12/64  -0.402945E+06                                                                   
+ BF               J12/64  -0.115896E+06                                                                   
+ BF2              J 6/72  -0.589959E+06                                                                   
+ BF2+             J12/70   0.322597E+06                                                                   
+ BF2-             J 6/72  -0.802093E+06                                                                   
+ BF3              J 6/69  -0.113565E+07                                                                   
+ BH               J12/64   0.442657E+06                                                                   
+ BHF2             J12/65  -0.733858E+06                                                                   
+ BH2              J12/64   0.200830E+06                                                                   
+ BH3              J12/64   0.106689E+06                                                                   
+ BN               J 6/66   0.476986E+06                                                                   
+ BO               J 6/68  -0.120900E+01                                                                   
+ BOCL             J12/65  -0.316298E+06                                                                   
+ BOF              J12/65  -0.602000E+06                                                                   
+ BOF2             J12/66  -0.836817E+06                                                                   
+ BO2              J 6/68  -0.284518E+06                                                                   
+ BO2-             J12/68  -0.694558E+06                                                                   
+ BS               J 6/72   0.243095E+06                                                                   
+ B2               J 3/79   0.829687E+06                                                                   
+ B2H6             tpis81   0.366000E+05     Diborane. TPIS, 1981.                                         
+ B2O              J 6/66   0.962340E+05                                                                   
+ B2O2             J12/64  -0.456037E+06                                                                   
+ B2O3             J 6/71  -0.835975E+06                                                                   
+ B3O3CL3          J 3/65  -0.163171E+07                                                                   
+ B3O3F3           J 3/65  -0.236515E+07                                                                   
+ B3O3H3           J 3/65  -0.121754E+07                                                                   
+ Ba               J12/70   0.179080E+06                                                                   
+ BaBr             J12/74  -0.110590E+06                                                                   
+ BaBr2            J12/74  -0.424686E+06                                                                   
+ BaCL             J12/72  -0.142258E+06                                                                   
+ BaCL2            J12/72  -0.498743E+06                                                                   
+ BaF              J12/72  -0.322174E+06                                                                   
+ BaF+             J12/72   0.150212E+06                                                                   
+ BaF2             J12/72  -0.803763E+06                                                                   
+ BaOH             J12/75  -0.226443E+06                                                                   
+ BaOH+            J 6/76   0.270905E+06                                                                   
+ BaO2H2           J12/75  -0.626576E+06                                                                   
+ BaS              J 9/77   0.377829E+05                                                                   
+ Be               l 9/96   0.324000E+06     Hf: CODATA,1989. Levels: NBS 35 by Moore. N=4.                
+ Be+              l 6/94   0.122970E+07     TEMPER-FILL, Levels: NBS 35 by Moore.                         
+ Be++             l 6/94   0.304877E+06     NBS 35 by Moore.                                              
+ BeBO2            J 6/66  -0.482003E+06                                                                   
+ BeBr             J 6/75   0.120113E+06                                                                   
+ BeBr2            J 6/75  -0.229289E+06                                                                   
+ BeCL             J 9/66   0.606707E+05                                                                   
+ BeCL+            J 6/68   0.979083E+06                                                                   
+ BeCLF            J 6/65  -0.573192E+06                                                                   
+ BeCL2            J 6/65  -0.360231E+06                                                                   
+ BeF              J12/71  -0.169876E+06                                                                   
+ BeF2             J 6/70  -0.796022E+06                                                                   
+ BeH              tpis81   0.347251E+06     All data from TPIS, 1981                                      
+ BeH+             j 9/66   0.115646E+07     Beryllium Hydride, Ion. JANAF constants and Hf298             
+ BeH2             j12/60   0.125520E+06     BERYLLIUM HYDRIDE - JANAF                                     
+ BeI              J12/75   0.169996E+06                                                                   
+ BeI2             J12/75  -0.640169E+05                                                                   
+ BeN              j 6/63   0.427000E+06     JANAF                                                         
+ BEO              j12/74   0.136400E+06     Constants and deltaH from JANAF.                              
+ BeOH             j12/75  -0.114600E+06     BERYLLIUM MONOHYDROXIDE - JANAF                               
+ BeOH+            j12/75   0.759930E+06     BERYLLIUM HYDROXIDE ION - JANAF                               
+ BeO2H2           j12/75  -0.677000E+06     Be(OH)2  JANAF                                                
+ BeS              J 9/77   0.263598E+06                                                                   
+ Be2O             j 9/63  -0.630000E+05     DIBERYLLIUM OXIDE FOR SUPP 11  H.K.UNGER                      
+ Be2OF2           J 6/66  -0.120460E+07                                                                   
+ Be2O2            j 9/63  -0.410000E+06     (BEO)2 (G) - JANAF, THE OLD GREY SHEETS                       
+ Be3O3            j 9/63  -0.105400E+07     (BEO)3 (G) - JANAF, THE OLD GREY TABLES                       
+ Be4O4            j 9/63  -0.159000E+07     (BEO)4 - FROM THE OLD GREY TABLES                             
+ Be5O5            j 9/63  -0.211300E+07     (BEO)5 - JANAF, THE OLD GREY TABLES                           
+ Be6O6            j 9/63  -0.266100E+07     (BEO)6 - JANAF, THE OLD GREY TABLES                           
+ Br               J 6/82   0.111860E+06                                                                   
+ BrCL             tpis89   0.147896E+05     TPIS, vol 1,part 1,1989,p.213-215 AND part 2,p.112.           
+ BrF              tpis89  -0.588514E+05     TPIS, vol 1,part 1,1989,p.208-211 AND part 2,p.109.           
+ BrF3             tpis89  -0.255600E+06     TPIS, vol 1,part 1,1989,p.211-212.                            
+ BrF5             tpis89  -0.428800E+06     TPIS, vol 1,part 1,1989,p.212-213.                            
+ BrO              j 3/96   0.125920E+06     Bromine Oxide.D0 & TabData: JPCRD,v25,n4,1996,p1069.          
+ OBrO             j 3/96   0.151955E+06     Hform & Cons: JPCRD,v25,n4,1996,p1069.                        
+ BrOO             j 3/96   0.108000E+06     Hform & Cons: JPCRD,v25,n4,1996,p1069.                        
+ BR2              tpis89   0.309100E+05     TPIS v1, pt2, p104, (tabulated data).                         
+ BrOBr            j 3/96   0.107639E+06     Hform & Cons: JPCRD,v25,n4,1996,p1069.                        
+ BrBrO            j 3/96   0.168000E+06     Hform & Cons: JPCRD,v25,n4,1996,p1069.                        
+ C                l 5/97   0.716680E+06     NSRDS-NBS 3,Nov,1970. Hf: CJP v33 1955 p12. T-fit             
+ C+               l 1/97   0.180944E+07     Cons & IP: NSRDS-NBS 3,Nov,1970. TEMPER                       
+ C-               l 1/97   0.588293E+06     EA: JPCRD v14 n3 1985 p742. Cp/R=2.5                          
+ CBr              l 7/95   0.490430E+06     TPIS, vol 2, part 1,1989,p35,157-59.                          
+ CBr2             tpis91   0.336623E+06     TPIS, vol 2, part 1,1991,p39,159-60.                          
+ CBr3             tpis91   0.235000E+06     TPIS, vol 2, part 1,1991,p43,160.                             
+ CBr4             x10/95   0.795000E+05     Kudchadker JPCRD v4 n2 1975 p457.                             
+ CCL              l11/95   0.502100E+06     TPIS v2 1991. TRC w7270 12/93.                                
+ CCLBr3           tpis91   0.650000E+05     TPIS, vol 2, part 1,1991,p94,171.                             
+ CCL2             l11/95   0.230000E+06     Hf: TRC w7270 12/93. Cons: Misc refs.                         
+ CCL2Br2          tpis91   0.100000E+05     TPIS, vol 2, part 1,1991,p98,170-71.                          
+ CCL3             x12/93   0.711000E+05     TRC 7270 12/93.                                               
+ CCL3Br           tpis91  -0.430000E+05     TPIS, vol 2, part 1,1991,p94,169-70.                          
+ CCL4             tpis91  -0.956000E+05     TPIS, vol 2, part 1,1991,p44,111-12.                          
+ CF               l11/95   0.242300E+06     Cons:TPIS,v2,pt1,1989,p35,74. Hf298:TRC w6950,6/88.           
+ CF+              l12/95   0.113674E+07     IP and cons: Janaf 12/70                                      
+ CFBr3            tpis91  -0.120000E+06     TPIS, vol 2, part 1,1991,p94,166-67.                          
+ CFCL             tpis91   0.258721E+05     TPIS, vol 2, part 1,1991,p39,135-36.                          
+ CFCLBr2          tpis91  -0.175000E+06     TPIS, vol 2, part 1,1991,p174-76.                             
+ CFCL2            tpis91  -0.105000E+06     TPIS, vol 2, part 1,1991,p43,138-39.                          
+ CFCL2Br          tpis91  -0.235000E+06     TPIS, vol 2, part 1,1991,p174-75.                             
+ CFCL3            l10/95  -0.283700E+06     Hf:TRC 7350 6/89. Cons: JPCRD v5 n3 1976 p571.                
+ CF2              x 6/88  -0.186600E+06     TRC tuvw6950 6/88.                                            
+ CF2+             l12/95   0.948481E+06     IP and cons: Janaf 12/70                                      
+ CF2Br2           tpis91  -0.380000E+06     TPIS, vol 2, part 1,1991,p98,166.                             
+ CF2CL            tpis91  -0.275000E+06     TPIS, vol 2, part 1,1991,p43,136-37.                          
+ CF2CLBr          tpis91  -0.435000E+06     TPIS, vol 2, part 1,1991,p173-74.                             
+ CF2CL2           l10/95  -0.490800E+06     Hf:TRC 7350 6/89. Cons: JPCRD v5 n3 1976 p571.                
+ CF3              l11/95  -0.467400E+06     Cons:TPIS,v2,pt1,1991,p43,77. Hf298:TRC w6950 6/88.           
+ CF3+             l12/95   0.423633E+06     IP and cons: Janaf 12/71                                      
+ CF3Br            tpis91  -0.648800E+06     TPIS, vol 2, part 1,1991,p94,165-66.                          
+ CF3CL            l10/95  -0.704200E+06     Hf:TRC 7350 6/89. Cons: JPCRD v5 n3 1976 p571.                
+ CF4              l10/95  -0.933500E+06     TPIS,v2,pt1,1991,p44,79.  TRC w-6880, 12/89.                  
+ CH               tpis79   0.597338E+06     Props & Hf0: TPIS,v2,pt2,1979.                                
+ CH+              tpis91   0.163053E+07     Props & IP: TPIS,v2,pt2,1991,p41.                             
+ CHBr3            x10/95   0.167000E+05     Kudchadker JPCRD v4 n2 1975 p457.                             
+ CHCL             lll/95   0.297100E+06     TPIS v2 1991.TRC w7270 12/93.Jacox JPCRD v19 1990 p1403       
+ CHCLBr2          tpis91   0.100000E+05     TPIS, vol 2, part 1,1991,p149,173.                            
+ CHCL2            x12/93   0.958000E+05     TRC 7270 12/93.                                               
+ CHCL2Br          tpis91  -0.450000E+05     TPIS, vol 2, part 1,1991,p149,172-73.                         
+ CHCL3            l 6/95  -0.102700E+06     TPIS, vol 2, part 1,1991,p94,127-29, PANDK.                   
+ CHF              x 6/88   0.108800E+06     TRC uvw6950 6/88.                                             
+ CHFBr2           tpis91  -0.175000E+06     TPIS, vol 2, part 1,1991,p149,168-69.                         
+ CHFCL            tpis91  -0.831447E+05     TPIS, vol 2, part 1,1991,p43,147.                             
+ CHFCLBr          tpis91  -0.230000E+06     TPIS, vol 2, part 1,1991,p149,176.                            
+ CHFCL2           l10/95  -0.284900E+06     Hf:TRC 7350 6/89. Cons: JPCRD v5 n3 1976 p571.                
+ CHF2             x 6/88  -0.238900E+06     TRC uvw6950 6/88.                                             
+ CHF2Br           tpis91  -0.422000E+06     TPIS, vol 2, part 1,1991,p149,168.                            
+ CHF2CL           l10/95  -0.482800E+06     Hf:TRC 7350 6/89. Cons: JPCRD v5 n3 1976 p571.                
+ CHF3             l10/95  -0.693300E+06     TPIS,v2,pt1,1991,p94,97,NRRAO1. TRC w-6880, 12/89.            
+ CH2              l11/89   0.388800E+06     Hf298: TRC tables.  Cons: JPCRD,v17,1988,p279.                
+ CH2Br2           x10/95  -0.148000E+05     Kudchadker JPCRD v4 n2 1975 p457.                             
+ CH2CL            l 2/96   0.119200E+06     TPIS v2 1991.TRC w7270 12/93. JPCRD v19 1990 p1387            
+ CH2CLBr          tpis91  -0.450000E+05     TPIS, vol 2, part 1,1991,p98,171-72.                          
+ CH2CL2           tpis91  -0.950000E+05     TPIS, vol 2, part 1,1991,p98,125-27.                          
+ CH2F             x 6/88  -0.318000E+05     TRC uvw6950 6/88.                                             
+ CH2FBr           tpis91  -0.215000E+06     TPIS, vol 2, part 1,1991,p98,167-68.                          
+ CH2FCl           l10/95  -0.265700E+06     Hf:TRC 7350 6/89. Cons: JPCRD v5 n3 1976 p571.                
+ CH2F2            l10/95  -0.452300E+06     TPIS,v2,pt1,1991,p96. TRC w-6880, 12/89.                      
+ CH3              l11/89   0.146900E+06     Hf298: TRC Apr30,1989. Cons: JPCRD V17,1988,p3526.            
+ CH3Br            x10/95  -0.377000E+05     Kudchadker JPCRD v4 n2 1975 p457.                             
+ CH3CL            tpis91  -0.818700E+05     TPIS, vol 2, part 1,1991,p94,122-24.                          
+ CH3F             l10/95  -0.237700E+06     TPIS,v2,pt1,1991,p93. TRC w-6880, Dec.1989.                   
+ CH2OH            l12/92  -0.890000E+04     Hydroxymethylene rad. Multiple refns.                         
+ CH3O             l10/92   0.130000E+05     Hf298: TPIS 1991. Cons: JPCRD v17,n2,1988,p419.               
+ CH4              l 8/88  -0.746000E+05     Cons & Hf298: TPIS v2,pt1,1991.                               
+ CH3OH            l 8/88  -0.200940E+06     Cons: JPCRD v6,n1,1977,p105. Hf298: TRC w5030,6/30/87.        
+ CI               l 7/95   0.570201E+06     TPIS, vol 2, part 1,1989,p35,176-77.                          
+ CN               l 3/96   0.438683E+06     Props:TPIS v2 pt2 1991. Hf:JPC v96 1992 p425.                 
+ CN+              tpis91   0.180049E+07     Props & Hf0: TPIS v2,pt2,1991,p203.                           
+ CN-              l10/92   0.654856E+05     Cons & Hf0: TPIS v2,pts1&2,1991.                              
+ CNN              l12/89   0.633475E+06     TPIS 1991. JPCRD,v17,1988,p314. JCP v67,n2,1977,p664.         
+ CO               tpis79  -0.110530E+06     Props & Hf298: TPIS vo2,pt2,1979,p29.                         
+ CO+              tpis91   0.124779E+07     Props and Hf0: TPIS,v2,pt2,1991,p22.                          
+ COCL             tpis91  -0.160000E+05     TPIS, vol 2, part 1,1991,p30,118-19.                          
+ COCL2            tpis91  -0.219500E+06     Carbonic Dichloride.                                          
+ COF              tpis91  -0.179413E+06     TPIS, vol 2, part 1,1991,p30,87-89.                           
+ COFCL            tpis91  -0.429493E+06     TPIS, vol 2, part 1,1991,p61,146-47.                          
+ COF2             tpis91  -0.640000E+06     Carbonic Difluoride.                                          
+ COHCL            tpis91  -0.164212E+06     TPIS, vol 2, part 1,1991,p61,134-35.                          
+ COHF             tpis91  -0.374590E+06     TPIS, vol 2, part 1,1991,p61,106.                             
+ COS              l 6/95  -0.141700E+06     TPIS, vol 2, part 1,1991,p28,211-12,NRRAO1.                   
+ CO2              l 7/88  -0.393510E+06     Props & Hf298: TPIS v2,pt1,1991,p27.                          
+ CO2+             l10/92   0.944685E+06     Cons&Hf0: TPIS,v2,pt1,1991,p30.                               
+ COOH             tpis91  -0.213000E+06     Cons&Hf298: TPIS,1991,pt1,p60.                                
+ CP               l 7/95   0.520159E+06     TPIS, vol 2, part 1,1989,p35,231-33.                          
+ CS               l 7/95   0.279772E+06     TPIS, vol 2, part 1,1989,p35,206-209.                         
+ CS2              l 6/95   0.116700E+06     TPIS, vol 2, part 1,1991,p28,209-11,NRRAO1.                   
+ C2               tpis91   0.830457E+06     Gurvich et.al.1991,v2,pt1,pp9-14,pt2,pp8-9.8/93               
+ C2+              tpis91   0.200478E+07     Gurvich et.al. Vol 2, Pt 2, 1991, p 10.                       
+ C2-              tpis91   0.480767E+06     Gurvich et.al. Vol 2, Pt 2,1991,p 12.                         
+ C2CL             tpis91   0.534083E+06     TPIS, vol 2, part 1,1991,p39,112-13.                          
+ C2CL2            tpis91   0.200000E+06     TPIS, vol 2, part 1,1991,p43,114.                             
+ C2CL3            tpis91   0.190272E+06     TPIS, vol 2, part 1,1991,p52,114-15.                          
+ C2CL4            tpis91  -0.110000E+05     TPIS, vol 2, part 1,1991,p54,115-16.                          
+ C2CL6            tpis91  -0.141500E+06     TPIS, vol 2, part 1,1991,p54,117-18.                          
+ C2F              tpis91   0.353847E+06     TPIS, vol 2, part 1,1991,p39,81-82.                           
+ C2FCL            tpis91   0.337664E+05     TPIS, vol 2, part 1,1991,p43,141-42.                          
+ C2FCL3           tpis91  -0.166000E+06     TPIS, vol 2, part 1,1991,p54,145-46.                          
+ C2F2             tpis91  -0.144666E+06     TPIS, vol 2, part 1,1991,p43,82-83.                           
+ C2F2CL2          tpis91  -0.337837E+06     TPIS,1991. 1,1, cis, trans isomers in eql.                    
+ C2F3             tpis91  -0.228181E+06     TPIS, vol 2, part 1,1991,p52,83-84.                           
+ C2F3CL           tpis91  -0.515200E+06     TPIS, vol 2, part 1,1991,p54,142-43.                          
+ C2F4             tpis91  -0.659500E+06     TPIS, vol 2, part 1,1991,p54,84-85.                           
+ C2F6             tpis91  -0.134400E+07     TPIS, vol 2, part 1,1991,p54,86-87.                           
+ C2H              l 1/91   0.566205E+06     Ethynyl. Delh: Ervin,JACS v112,1990. Jacox, 1988.             
+ C2HCL            tpis91   0.212857E+06     TPIS, vol 2, part 1,1991,p43,129.                             
+ C2HCL3           tpis91  -0.191000E+05     TPIS, vol 2, part 1,1991,p54,134.                             
+ C2HF             tpis91   0.416923E+05     TPIS, vol 2, part 1,1991,p43,99-100.                          
+ C2HFCL2          tpis91  -0.168648E+06     TPIS, vol 2, part 1,1991,p102,155-57.                         
+ C2HF2CL          tpis91  -0.333654E+06     TPIS, vol 2, part 1,1991,p102,153-55.                         
+ C2HF3            tpis91  -0.491000E+06     TPIS, vol 2, part 1,1991,p54,105.                             
+ CHCO,ketyl       l 6/89   0.161084E+06     JPCRD,v11,sup2,1982. Burcat,TAE 504,Dec 1982.                 
+ C2H2,vinylidene  l12/89   0.414788E+06     Chen,JCP,v91,1989. Osamura,JACS,v103,1981.                    
+ C2H2,acetylene   l 1/91   0.228200E+06     TPIS 1978. DelH - TRC w-3040, 10/31/88.                       
+ C2H2CL2          tpis91   0.341000E+04     TPIS,1991,p102,130-33. 1,1, cis, and trans in equil.          
+ C2H2FCL          tpis91  -0.165082E+06     TPIS,1991, 1,1, cis, and trans isomers in eql.                
+ C2H2F2           tpis91  -0.336400E+06     TPIS,1991,p101-102; 1,1, cis, and trans in equil.             
+ CH2CO,ketene     l 5/90  -0.477000E+05     JPCRD,V11,SUP2,1982. JCP v38 1963 p2816.                      
+ C2H3,vinyl       l 2/92   0.299740E+06     Ervin, JACS 1990, v112, p5750. P.R.Taylor,NASA Ames.          
+ C2H3CL           tpis91   0.230000E+05     TPIS, vol 2, part 1,1991,p54,129-30.                          
+ C2H3F            tpis91  -0.140100E+06     TPIS, vol 2, part 1,1991,p54,100-101.                         
+ CH3CN            l12/92   0.644300E+05     Methyl Cyanide.Spangenberg,Z.P.C v255,1974. TRC w9270.        
+ CH3CO,acetyl     l 6/96  -0.100000E+05     Hf:JPC v96 1992 p5881. Cons:JACS v111 1989 p7675              
+ C2H4             l 1/91   0.525000E+05     JPCRD,v4,75,p251. Ch.Phys,v98,85,p1. Hf298:TRCw-2600 4/88.    
+ C2H4O,ethylen-o  l 8/88  -0.526347E+05     Ethylene oxide.  NSRDS-NBS 39,1972.  JANAF Sep 9,1965.        
+ CH3CHO,ethanal   l 8/88  -0.166190E+06     Chao,JPCRD,1986,v.15,p1369.  TRC for HF298, Jn,1978.          
+ CH3COOH          l 8/88  -0.432249E+06     Acetic acid. JPCRD vol 7, NO 1, 1978, P 363.                  
+ C2H5             l12/92   0.118658E+06     Chen,JCP v93,no2,Jul90,p1191.                                 
+ C2H5Br           x 6/79  -0.636000E+05     Bromoethane. TRC tuvw7650 6/30/1979                           
+ C2H6             l 8/88  -0.838515E+05     Ethane.  JPCRD VOL 11, NO 1, P 83, 1982.                      
+ CH3N2CH3         l 8/88   0.148699E+06     Azomethane. JPCRD,vol 11,no 1,1982,p83.                       
+ C2H5OH           l 8/88  -0.234950E+06     Ethanol. CHAO,JPCRD,NO4,1986,p1369.  HF298, TRC 6/87.         
+ CH3OCH3          l12/92  -0.184110E+06     DIMETHYL ETHER. CHAO,JPCRD,NO4,1986. Hf298,TRC W-6040.        
+ CCN              l12/92   0.804803E+06     CCN RAD. HF298: TPIS 1991. Jacox 1988.                        
+ CNC              tpis91   0.684917E+06     Cnc rad. Constants & Hf298; TPIS V.2,PT 1,1991                
+ C2N2             tpis79   0.309100E+06     Gurvich et.al., VOL 2, PART 2, 1979, P 220.                   
+ C2O              l12/89   0.291039E+06     Constants & Hf298: TPIS 1979. Jacox, 1988.                    
+ C3               tpis79   0.839948E+06     Props&HF298: TPIS,v2,pt2,1979,p23.                            
+ C3H3,propargyl   bur 92   0.346000E+06     Propargyl Radical. Tsang,Int.J.Chem.Kin v10,(1978)p687.       
+ C3H4,allene      l12/92   0.190920E+06     TRC w-2750,1984. Shimanouchi,1972. J.Raman Spec.v1,1973       
+ C3H4,propyne     l12/92   0.184510E+06     TRC w-3000. JCP v18,1950,p1613. NSRDS-NBS v39,1972,p116       
+ C3H4,cyclo-      l 5/90   0.277100E+06     Cyclopropene.JPCRD v15,n2,1986,p437.                          
+ C3H5,allyl       bur 92   0.169000E+06     Mol.Data-Bur92.  Hf298-JPCRD v.20,no2,1991,pp 221-273.        
+ C3H6,propylene   l 2/95   0.200000E+05     Mol.data- JPCRD,v4,1975,p251. Hform- TRC 4/30/88,w2600.       
+ C3H6,cyclo-      l 1/93   0.533000E+05     JPCRD v15,n2,1986,p437. J.MolSp v47,1973,64-83.               
+ C3H6O            l 6/90  -0.937200E+05     Propylene oxide. Various refs.                                
+ C3H7,n-propyl    l 6/90   0.100500E+06     Mole.data- Tsang,JACS May 1985, p 2872.                       
+ C3H7,i-propyl    l 9/85   0.933000E+05     Mol.data- Tsang,JACS May 1985, p 2872.                        
+ C3H8             l 6/90  -0.104680E+06     TRC w1350,10/85. JPCRD V2,NO2,1973,P427.                      
+ C3H8O,1propanol  l 9/88  -0.255200E+06     Props&Hf298: TRC,6/87.  1500K+:JPCRD,v15,1986,p1369.          
+ C3H8O,2propanol  l 9/88  -0.272700E+06     Hf298: TRC 6/87. Cons: JPCRD,v15,1986,p1369.                  
+ C3O2             l 7/88  -0.936400E+05     Carbon suboxide. Hf298:JANAF6/68. Cons:JPCRD,v6,'77p993.      
+ C4               l 7/88   0.103390E+07     Cons & HF298: TPIS,v2,pt1,1979,p21.                           
+ C4H2             l 2/93   0.450000E+06     1,3-Butadiyne. Thermochim.Acta,v178,1991,p273.                
+ C4H4,1,3-cyclo-  l 5/90   0.385000E+06     1,3-Cyclobutadiene.JPCRD v15,n2,1986,p437.                    
+ C4H6,butadiene   x10/92   0.110000E+06     1,3-butadiene.TRC,Oct 31,1992,tuvw-2820,extrapolated.         
+ C4H6,1-butyne    x10/93   0.165200E+06     TRC tables, Oct 31,1993, tuvw-3040. Extrapolated.             
+ C4H6,2-butyne    x10/93   0.145700E+06     TRC tables, Oct 31,1993, tuvw-3040. Extrapolated.             
+ C4H6,cyclo-      l 5/90   0.156700E+06     Cyclobutene.JPCRD v15,n2,1986,p437.                           
+ C4H8,1-butene    x 4/88  -0.540000E+03     TRC tuvw-2600, Apr.30,1988.                                   
+ C4H8,cis2-buten  x 4/88  -0.740000E+04     TRC tuvw-2600, Apr.30,1988.                                   
+ C4H8,tr2-butene  x 4/88  -0.110000E+05     TRC tuvw-2600, Apr.30,1988.                                   
+ C4H8,isobutene   x 4/88  -0.171000E+05     TRC tuvw-2600, Apr.30,1988.                                   
+ C4H8,cyclo-      l 5/90   0.284000E+05     Cyclobutane. JPCRD v15,n2,1986,p437.                          
+ (CH3COOH)2       l 6/90  -0.929015E+06     (acetic acid)2.JPCRD,v7,n1,p363,1978.                         
+ C4H9,n-butyl     x10/84   0.665300E+05     TRC tables, tuvw-1940, Oct.31,1984.                           
+ C4H9,i-butyl     x10/84   0.573200E+05     2-methylethyl. TRC tables, tuvw-1940, Oct.31,1984.            
+ C4H9,s-butyl     l 1/93   0.710000E+05     1-methylpropyl rad.  Tsang, JACS, v107, no.10, p2872.         
+ C4H9,t-butyl     l 1/93   0.517000E+05     1,1-dimethylethyl. Tsang, JACS, v107, no.10, p2872.           
+ C4H10,isobutane  l 6/90  -0.134990E+06     TRC w-1350,10/85. JPCRD v4,n4,1975,p859.                      
+ C4H10,n-butane   l 6/90  -0.125790E+06     TRC w 1350,10/85. JPCRD v4,n4,1975,p859.                      
+ C4N2             j 3/61   0.533460E+06     2-Butynedinitrile. JANAF Mar. 1978.                           
+ C5               l 7/88   0.105092E+07     Cons & HF298: TPIS,v2,pt1,1979,p21.                           
+ C5H6,1,3cyclo-   l 5/90   0.134300E+06     1,3-Cyclopentadiene. Pedley 1986. Dorfeeva, 1986.             
+ C5H8,cyclo-      l 1/93   0.339000E+05     Cyclopentene. JPCRD v15,n2,1986,p437. TRC w-2840.             
+ C5H10,1-pentene  x 4/87  -0.212800E+05     TRC tables tuvw-2500, Apr.30,1987.                            
+ C5H10,cyclo-     l 6/90  -0.784000E+05     Cyclopentane. JPCRD v15,n2,1986,p437.                         
+ C5H11,pentyl     x10/84   0.458100E+05     TRC tables tuvw-1941, Oct.31,1984.                            
+ C5H11,t-pentyl   l 1/93   0.326000E+05     1,1-dimethylpropyl rad. Tsang,JACS,v107,n10,1985,p2872.       
+ C5H12,n-pentane  x10/85  -0.146760E+06     TRC tables. Oct 31,1985. tuvw 1350.                           
+ C5H12,i-pentane  x10/85  -0.153700E+06     2-Methylbutane. TRC tables. Oct 31,1985. tuvw 1350.           
+ CH3C(CH3)2CH3    x10/85  -0.167920E+06     2,2-Dimethypropane (neopentane) TRC tuvw 1130,10/85.          
+ C6H2             l 2/93   0.670000E+06     Hf298 & Cons: Thermochimica Acta,v178,1991,p273.              
+ C6H5,phenyl      l 1/91   0.337200E+06     NASA TM 83800, 1985. TRC 10/89.                               
+ C6D5,phenyl      L12/84   0.306948E+06     NASA TM-83800, 1985.                                          
+ C6H5O,phenoxy    l 6/90   0.476976E+05     NASA TM-83800, 1985.                                          
+ C6H6             l 1/91   0.828800E+05     NASA TM 83800, 1985. TRC 10/86.                               
+ C6D6             L12/84   0.581780E+05     NASA TM-83800, 1985.                                          
+ C6H5OH,phenol    l 6/90  -0.963990E+05     NASA TM 83800, JAN 1985.                                      
+ C6H10,cyclo-     l 1/93  -0.460000E+04     Cyclohexene. JPCRD v15,n2,1986,p437.                          
+ C6H12,1-hexene   x 4/87  -0.419500E+05     TRC tuvw-2500,Apr 30, 1987.                                   
+ C6H12,cyclo-     l 6/90  -0.123300E+06     Cyclohexane. JPCRD v15,n2,1986,p437.                          
+ C6H13,n-hexyl    x10/83   0.251000E+05     TRC tuvw-1930,Oct 31, 1983.                                   
+ C6H14,n-hexane   l 6/96  -0.166920E+06     TRC tuvw-1440,4/85. JCP v60,n8,p3144,1974. W extrap.          
+ C7H7,benzyl      l 1/93   0.210500E+06     Hippler JPC v94,1990,p3803.  JPC v92,1988,p4905.              
+ C7H8             l 1/93   0.501700E+05     Various references.                                           
+ C7H8O,cresol-mx  l 1/93  -0.132298E+06     Eql mixture. Kudchadker et al JPCRD,v7,n2,p417,1978.          
+ C7H14,1-heptene  x 4/87  -0.627600E+05     TRC tuvw-2500,Apr 30, 1987.                                   
+ C7H15,n-heptyl   x10/83   0.439000E+04     TRC tuvw-1930, 10/83                                          
+ C7H16,2-methylh  x10/85  -0.194600E+06     2-methyl hexane. TRC tuvw-1460,10/31/85                       
+ C7H16,n-heptane  x10/85  -0.187780E+06     TRC tuv-1460,10/31/85; p1010,10/31/84.                        
+ C8H8,styrene     x 4/89   0.148300E+06     Ethenylbenzene,TRC Apr 30,1989,tuvw-4490, Extrapolated.       
+ C8H10,ethylbenz  x10/86   0.299200E+05     Ethylbenzene. TRC Oct 31,1986,tuvw-3200, Extrapolated.        
+ C8H16,1-octene   x 4/87  -0.835900E+05     TRC tuvw-2500,Apr 30, 1987.                                   
+ C8H17,n-octyl    x10/83  -0.163200E+05     TRC tuvw-1930,10/83.                                          
+ C8H18,n-octane   x 4/85  -0.208750E+06     N-octane. TRC tuvw-1490, 4/85.                                
+ C8H18,isooctane  x 4/85  -0.224010E+06     2,2,4-Trimethylpentane. TRC tables tuvw-1490,4/30/85.         
+ C9H19,n-nonyl    x10/83  -0.370300E+05     TRC(10/83)tuvw-1930.                                          
+ C10H8,naphthale  l 8/93   0.150580E+06     Naphthalene. Chen,JPCFD,v8,n2,1979,p527-535.                  
+ C10H21,n-decyl   x10/83  -0.577400E+05     TRC(10/83)tuvw-1930.                                          
+ C12H9,o-bipheny  l12/84   0.427730E+06     O-biphenyl. NASA 83800, Jan 1985.                             
+ C12D9,o-bipheny  L12/84   0.386512E+06     NASA TM-83800, 1985.                                          
+ C12H10,biphenyl  l12/84   0.182130E+06     NASA 83800, Jan 1985.                                         
+ C12D10,biphenyl  L12/84   0.138416E+06     NASA TM-83800, 1985.                                          
+ Ca               L 3/93   0.177800E+06                                                                   
+ Ca+              J 9/83   0.773828E+06                                                                   
+ CaBr             J12/74  -0.493972E+05                                                                   
+ CaBr2            J 6/74  -0.384936E+06                                                                   
+ CaCL             J 6/70  -0.104601E+06                                                                   
+ CaCL2            J 6/70  -0.471546E+06                                                                   
+ CaF              J12/68  -0.271965E+06                                                                   
+ CaF2             J12/68  -0.784515E+06                                                                   
+ CaI              J 6/74  -0.504576E+04                                                                   
+ CaI2             J 6/74  -0.258159E+06                                                                   
+ CaO              J12/74   0.439330E+05                                                                   
+ CaOH             J12/75  -0.193882E+06                                                                   
+ CaOH+            J12/75   0.369094E+06                                                                   
+ CaO2H2           J12/75  -0.610776E+06                                                                   
+ CaS              J 9/77   0.123600E+06                                                                   
+ Ca2              J 9/83   0.341543E+06                                                                   
+ CL               J 6/82   0.121302E+06                                                                   
+ CL+              J 6/82   0.137880E+07                                                                   
+ CL-              J 6/82  -0.233954E+06                                                                   
+ CLCN             l 6/95   0.134200E+06     TPIS, vol 2, part 1,1991,p28,230-31,NRRAO1.                   
+ CLF              tpis89  -0.557000E+05     TPIS, vol 1,part 1,1989,p.190-193 AND part 2,p.97             
+ CLF3             tpis89  -0.164600E+06     TPIS,v1,pt1,1989,p193.                                        
+ CLF5             tpis89  -0.238000E+06     TPIS, vol 1,part 1,1989,p.194-96.                             
+ CLO              tpis89   0.101627E+06     TPIS, vol 1,part 1,1989,p.180-182,part 2,p.90.                
+ CLO2             l 7/93   0.105000E+06     Chlorine dioxide.                                             
+ CL2              tpis89   0.000000E+00     Chlorine gas. TPIS 1989, v1, pt2, p88.                        
+ CL2O             tpis89   0.790000E+05     TPIS, vol 1,part 1,1989,p.184-186.                            
+ Cr               l 7/97   0.397480E+06     Hf298:JANAF 6/79. Levels:JPCRD v14 sup2 1985 p264.            
+ Cr+              l 7/97   0.105655E+07     Hf298:JANAF 6/79. Levels:JPCRD v14 sup2 1985.                 
